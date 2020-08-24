@@ -108,6 +108,18 @@ wyniki_dni = [
 1 osoba powiat malborski,
 1 osoba powiat nowodworski,
 1 osoba miasto Słupsk.""",
+"""12 osób miasto Gdańsk,
+10 osób powiat wejherowski,
+10 osób powiat kartuski,
+8 osób powiat starogardzki
+6 osób miasto Gdynia,
+4 osoby miasto Sopot,
+3 osoby powiat chojnicki,
+2 osoby powiat pucki,
+2 osoby powiat lęborski.
+1 osoba powiat sztumski,
+1 osoba powiat miasto Słupsk,
+1 osoba powiat słupski."""
 ]
 
 wyniki_dni.each do |wyniki|
@@ -115,7 +127,7 @@ wyniki_dni.each do |wyniki|
     cols = x.gsub(/[,.]/, "").split(" ")
     num = cols[0] ? cols[0].to_i : 0
     
-    powiat = cols[3]
+    powiat = cols.last
     ludnosc = powiaty[powiat.to_sym]
     
     unless powiaty_wyniki[powiat.to_sym]
