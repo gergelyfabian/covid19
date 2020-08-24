@@ -1,6 +1,8 @@
 # covid19
 
 Prognoza z 11 dni:
+
+```
 [190, :Gdańsk, 470, 5.145067698259187, "prawie żółty"]
 [38, :pucki, 84, 5.757575757575758, "prawie żółty"]
 [87, :Gdynia, 246, 4.501108647450111, "prawie żółty"]
@@ -21,5 +23,6 @@ Prognoza z 11 dni:
 [11, :malborski, 63, 2.2222222222222223, "zielony"]
 [7, :Słupsk, 328, 0.27161862527716185, "zielony"]
 [6, :człuchowski, 56, 1.3636363636363635, "zielony"]
+```
 
 (generated from sanepid_pomorze.rb)
