@@ -183,7 +183,21 @@ wyniki_dni = [
 2 osoby powiat lęborski.
 1 osoba powiat sztumski,
 1 osoba powiat miasto Słupsk,
-1 osoba powiat słupski."""
+1 osoba powiat słupski.""",
+# 08.25
+"""24 osób powiat kartuski,
+19 osób miasto Gdańsk,
+14 osób powiat wejherowski,
+9 osób powiat tczewski,
+6 osób powiat starogardzki
+5 osób powiat malborski,
+4 osoby miasto Gdynia,
+4 osoby powiat kościerski
+2 osoby miasto Sopot,
+2 osoby powiat pucki,
+2 osoby powiat bytowski
+1 osoba powiat miasto Słupsk,
+1 osoba powiat gdański"""
 ]
 
 wyniki_dni.each do |wyniki|
