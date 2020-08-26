@@ -1,5 +1,30 @@
 # covid19
 
+Prognoza z 5 dni:
+
+```
+[101, :Gdańsk, 470, 6.017021276595745, "zółty"]
+[39, :Gdynia, 246, 4.439024390243902, "prawie żółty"]
+[26, :starogardzki, 128, 5.687499999999999, "prawie żółty"]
+[53, :wejherowski, 217, 6.838709677419355, "zółty"]
+[18, :tczewski, 115, 4.3826086956521735, "prawie żółty"]
+[7, :gdański, 118, 1.6610169491525422, "zielony"]
+[54, :kartuski, 139, 10.87769784172662, "zółty"]
+[12, :Sopot, 35, 9.6, "zółty"]
+[11, :pucki, 84, 3.666666666666667, "zielony"]
+[10, :malborski, 63, 4.444444444444445, "prawie żółty"]
+[2, :człuchowski, 56, 1.0000000000000002, "zielony"]
+[5, :kościerski, 72, 1.9444444444444444, "zielony"]
+[4, :lęborski, 66, 1.6969696969696972, "zielony"]
+[8, :sztumski, 41, 5.463414634146343, "prawie żółty"]
+[2, :kwidzyński, 84, 0.6666666666666667, "zielony"]
+[1, :nowodworski, 79, 0.35443037974683544, "zielony"]
+[4, :Słupsk, 328, 0.3414634146341464, "zielony"]
+[4, :chojnicki, 97, 1.154639175257732, "zielony"]
+[1, :słupski, 98, 0.2857142857142857, "zielony"]
+[2, :bytowski, 80, 0.7000000000000001, "zielony"]
+```
+
 Prognoza z 13 dni:
 
 ```

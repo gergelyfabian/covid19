@@ -1,5 +1,3 @@
-dni = 0
-
 powiaty = {
   "bytowski": 80,
   "chojnicki": 97,
@@ -23,25 +21,53 @@ powiaty = {
   "słupski": 98,
 }
 
-powiaty_wyniki = {}
-
 wyniki_dni_raw = File.read("sanepid_pomorze.txt").split("\n\n")
 wyniki_dni = wyniki_dni_raw.map{ |x| x.split("\n").find_all{|lines| !lines.start_with?("#")} }
 
-wyniki_dni.each do |wyniki|
-  wyniki.each do |x|
-    cols = x.gsub(/[,.]/, "").split(" ")
-    num = cols[0] ? cols[0].to_i : 0
-    
-    powiat = cols.last
+def count_results_for_days(powiaty, result_days, count)
+  dni = 0
+  powiaty_wyniki = {}
+  
+  count = result_days.size < count ? result_days.size : count
+  
+  result_days[-1*count, count].each do |wyniki|
+    wyniki.each do |x|
+      cols = x.gsub(/[,.]/, "").split(" ")
+      num = cols[0] ? cols[0].to_i : 0
+      
+      powiat = cols.last
+      ludnosc = powiaty[powiat.to_sym]
+      
+      unless powiaty_wyniki[powiat.to_sym]
+        powiaty_wyniki[powiat.to_sym] = 0
+      end
+      powiaty_wyniki[powiat.to_sym] += num
+      
+      na_10_tys = num*14/(ludnosc.to_f/10)
+      kolor = if na_10_tys >= 12
+        "czerwony"
+      elsif na_10_tys >= 6
+        "zółty"
+      elsif na_10_tys >= 4
+        "prawie żółty"
+      else
+        "zielony"
+      end
+      #p [num, powiat, ludnosc, na_10_tys, kolor]
+      
+    end
+    dni += 1
+  end
+
+  puts
+  puts "Prognoza z #{dni} dni:"
+  puts
+  puts "```"
+
+  powiaty_wyniki.each do |powiat,num|
     ludnosc = powiaty[powiat.to_sym]
     
-    unless powiaty_wyniki[powiat.to_sym]
-      powiaty_wyniki[powiat.to_sym] = 0
-    end
-    powiaty_wyniki[powiat.to_sym] += num
-    
-    na_10_tys = num*14/(ludnosc.to_f/10)
+    na_10_tys = num.to_f/dni*14/(ludnosc.to_f/10)
     kolor = if na_10_tys >= 12
       "czerwony"
     elsif na_10_tys >= 6
@@ -52,29 +78,9 @@ wyniki_dni.each do |wyniki|
       "zielony"
     end
     p [num, powiat, ludnosc, na_10_tys, kolor]
-    
   end
-  dni += 1
-  puts
+  puts "```"
 end
 
-puts "Prognoza z #{dni} dni:"
-puts
-puts "```"
-
-powiaty_wyniki.each do |powiat,num|
-  ludnosc = powiaty[powiat.to_sym]
-  
-  na_10_tys = num.to_f/dni*14/(ludnosc.to_f/10)
-  kolor = if na_10_tys >= 12
-    "czerwony"
-  elsif na_10_tys >= 6
-    "zółty"
-  elsif na_10_tys >= 4
-    "prawie żółty"
-  else
-    "zielony"
-  end
-  p [num, powiat, ludnosc, na_10_tys, kolor]
-end
-puts "```"
+count_results_for_days(powiaty, wyniki_dni, 5)
+count_results_for_days(powiaty, wyniki_dni, 14)
