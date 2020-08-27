@@ -42,19 +42,6 @@ def count_results_for_days(powiaty, result_days, count)
         powiaty_wyniki[powiat.to_sym] = 0
       end
       powiaty_wyniki[powiat.to_sym] += num
-      
-      na_10_tys = num*14/(ludnosc.to_f/10)
-      kolor = if na_10_tys >= 12
-        "czerwony"
-      elsif na_10_tys >= 6
-        "zółty"
-      elsif na_10_tys >= 4
-        "prawie żółty"
-      else
-        "zielony"
-      end
-      #p [num, powiat, ludnosc, na_10_tys, kolor]
-      
     end
     dni += 1
   end
@@ -82,5 +69,6 @@ def count_results_for_days(powiaty, result_days, count)
   puts "```"
 end
 
+count_results_for_days(powiaty, wyniki_dni, 1)
 count_results_for_days(powiaty, wyniki_dni, 5)
 count_results_for_days(powiaty, wyniki_dni, 14)

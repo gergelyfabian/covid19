@@ -196,3 +196,16 @@
 1 osoba powiat sztumski,
 1 osoba powiat tczewski,
 
+# 08.27
+24 osób miasto Gdańsk,
+7 osób powiat wejherowski,
+7 osób powiat kościerski,
+7 osób powiat starogardzki,
+6 osób powiat tczewski,
+6 osób miasto Gdynia,
+5 osób powiat gdański,
+3 osoby powiat kartuski,
+3 osoby powiat chojnicki,
+1 osoba powiat bytowski,
+1 osoba miasto Sopot,
+1 osoba powiat pucki.
