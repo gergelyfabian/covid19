@@ -69,6 +69,10 @@ def count_results_for_days(powiaty, result_days, count)
   puts "```"
 end
 
+puts "# covid19"
 count_results_for_days(powiaty, wyniki_dni, 1)
-count_results_for_days(powiaty, wyniki_dni, 5)
+count_results_for_days(powiaty, wyniki_dni, 3)
+count_results_for_days(powiaty, wyniki_dni, 7)
 count_results_for_days(powiaty, wyniki_dni, 14)
+puts
+puts "(generated from sanepid_pomorze.rb)"

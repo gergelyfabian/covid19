@@ -17,28 +17,50 @@ Prognoza z 1 dni:
 [1, :pucki, 84, 1.6666666666666665, "zielony"]
 ```
 
-Prognoza z 5 dni:
+Prognoza z 3 dni:
 
 ```
-[108, :Gdańsk, 470, 6.43404255319149, "zółty"]
-[55, :kartuski, 139, 11.079136690647482, "zółty"]
-[53, :wejherowski, 217, 6.838709677419355, "zółty"]
-[35, :Gdynia, 246, 3.9837398373983737, "zielony"]
-[7, :sztumski, 41, 4.780487804878049, "prawie żółty"]
-[11, :Sopot, 35, 8.8, "zółty"]
-[10, :pucki, 84, 3.333333333333333, "zielony"]
-[18, :tczewski, 115, 4.3826086956521735, "prawie żółty"]
-[9, :gdański, 118, 2.1355932203389827, "zielony"]
-[2, :kwidzyński, 84, 0.6666666666666667, "zielony"]
-[3, :lęborski, 66, 1.272727272727273, "zielony"]
-[8, :malborski, 63, 3.555555555555556, "zielony"]
-[1, :nowodworski, 79, 0.35443037974683544, "zielony"]
-[4, :Słupsk, 328, 0.3414634146341464, "zielony"]
-[24, :starogardzki, 128, 5.25, "prawie żółty"]
-[7, :chojnicki, 97, 2.020618556701031, "zielony"]
-[1, :słupski, 98, 0.2857142857142857, "zielony"]
-[11, :kościerski, 72, 4.277777777777779, "prawie żółty"]
-[3, :bytowski, 80, 1.05, "zielony"]
+[29, :kartuski, 139, 9.736211031175058, "zółty"]
+[68, :Gdańsk, 470, 6.751773049645391, "zółty"]
+[27, :wejherowski, 217, 5.806451612903226, "prawie żółty"]
+[16, :tczewski, 115, 6.492753623188405, "zółty"]
+[16, :starogardzki, 128, 5.833333333333332, "prawie żółty"]
+[7, :malborski, 63, 5.185185185185186, "prawie żółty"]
+[22, :Gdynia, 246, 4.173441734417343, "prawie żółty"]
+[11, :kościerski, 72, 7.129629629629629, "zółty"]
+[3, :Sopot, 35, 4.0, "prawie żółty"]
+[6, :pucki, 84, 3.333333333333333, "zielony"]
+[3, :bytowski, 80, 1.75, "zielony"]
+[2, :Słupsk, 328, 0.2845528455284553, "zielony"]
+[8, :gdański, 118, 3.163841807909604, "zielony"]
+[4, :chojnicki, 97, 1.924398625429553, "zielony"]
+[1, :kwidzyński, 84, 0.5555555555555555, "zielony"]
+[1, :sztumski, 41, 1.1382113821138211, "zielony"]
+```
+
+Prognoza z 7 dni:
+
+```
+[57, :starogardzki, 128, 8.90625, "zółty"]
+[141, :Gdańsk, 470, 6.0, "zółty"]
+[35, :tczewski, 115, 6.086956521739131, "zółty"]
+[70, :wejherowski, 217, 6.451612903225807, "zółty"]
+[18, :pucki, 84, 4.285714285714286, "prawie żółty"]
+[17, :gdański, 118, 2.8813559322033897, "zielony"]
+[61, :kartuski, 139, 8.776978417266186, "zółty"]
+[10, :chojnicki, 97, 2.061855670103093, "zielony"]
+[48, :Gdynia, 246, 3.902439024390244, "zielony"]
+[15, :Sopot, 35, 8.571428571428571, "zółty"]
+[13, :kościerski, 72, 3.611111111111111, "zielony"]
+[5, :lęborski, 66, 1.5151515151515151, "zielony"]
+[11, :malborski, 63, 3.492063492063492, "zielony"]
+[2, :nowodworski, 79, 0.5063291139240506, "zielony"]
+[9, :sztumski, 41, 4.390243902439025, "prawie żółty"]
+[2, :człuchowski, 56, 0.7142857142857143, "zielony"]
+[2, :kwidzyński, 84, 0.47619047619047616, "zielony"]
+[4, :Słupsk, 328, 0.24390243902439027, "zielony"]
+[1, :słupski, 98, 0.2040816326530612, "zielony"]
+[3, :bytowski, 80, 0.75, "zielony"]
 ```
 
 Prognoza z 14 dni:
