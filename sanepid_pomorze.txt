@@ -209,3 +209,15 @@
 1 osoba powiat bytowski,
 1 osoba miasto Sopot,
 1 osoba powiat pucki.
+
+# 08.28
+14 osób miasto Gdańsk,
+9 osób powiat wejherowski,
+5 osób miasto Gdynia,
+5 osób powiat kartuski,
+2 osoby powiat gdański,
+2 osoby powiat słupski,
+2 osoby powiat pucki,  
+1 osoba powiat malborski,
+1 osoba powiat nowodworski,
+1 osoba powiat m. Słupsk.
