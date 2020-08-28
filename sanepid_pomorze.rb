@@ -58,7 +58,7 @@ def count_results_for_days(powiaty, result_days, count)
     kolor = if na_10_tys >= 12
       "czerwony"
     elsif na_10_tys >= 6
-      "zółty"
+      "żółty"
     elsif na_10_tys >= 4
       "prawie żółty"
     else
