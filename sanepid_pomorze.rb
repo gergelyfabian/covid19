@@ -1,60 +1,56 @@
 powiaty = {
-  "bytowski": 80,
-  "chojnicki": 97,
-  "człuchowski": 56,
-  "gdański": 118,
-  "kartuski": 139,
-  "wejherowski": 217,
-  "starogardzki": 128,
-  "sztumski": 41,
-  "tczewski": 115,
-  "Gdańsk": 470,
-  "Gdynia": 246,
-  "Sopot": 35,
-  "kościerski": 72,
-  "lęborski": 66,
-  "malborski": 63,
-  "nowodworski": 79,
-  "pucki": 84,
-  "Słupsk": 328,
-  "kwidzyński": 84,
-  "słupski": 98,
+  "bytowski": {:residents => 80, :days => []},
+  "chojnicki": {:residents => 97, :days => []},
+  "człuchowski": {:residents => 56, :days => []},
+  "gdański": {:residents => 118, :days => []},
+  "kartuski": {:residents => 139, :days => []},
+  "wejherowski": {:residents => 217, :days => []},
+  "starogardzki": {:residents => 128, :days => []},
+  "sztumski": {:residents => 41, :days => []},
+  "tczewski": {:residents => 115, :days => []},
+  "Gdańsk": {:residents => 470, :days => []},
+  "Gdynia": {:residents => 246, :days => []},
+  "Sopot": {:residents => 35, :days => []},
+  "kościerski": {:residents => 72, :days => []},
+  "lęborski": {:residents => 66, :days => []},
+  "malborski": {:residents => 63, :days => []},
+  "nowodworski": {:residents => 79, :days => []},
+  "pucki": {:residents => 84, :days => []},
+  "Słupsk": {:residents => 328, :days => []},
+  "kwidzyński": {:residents => 84, :days => []},
+  "słupski": {:residents => 98, :days => []},
 }
 
-wyniki_dni_raw = File.read("sanepid_pomorze.txt").split("\n\n")
-wyniki_dni = wyniki_dni_raw.map{ |x| x.split("\n").find_all{|lines| !lines.start_with?("#")} }
+result_days_raw = File.read("sanepid_pomorze.txt").split("\n\n")
+result_days = result_days_raw.map{ |x| x.split("\n").find_all{|lines| !lines.start_with?("#")} }
 
-def count_results_for_days(powiaty, result_days, count)
-  dni = 0
-  powiaty_wyniki = {}
-  
-  count = result_days.size < count ? result_days.size : count
-  
-  result_days[-1*count, count].each do |wyniki|
-    wyniki.each do |x|
+def parse_results(powiaty, result_days)
+  days = 0
+  result_days.each do |results|
+    results.each do |x|
       cols = x.gsub(/[,.]/, "").split(" ")
       num = cols[0] ? cols[0].to_i : 0
       
-      powiat = cols.last
-      ludnosc = powiaty[powiat.to_sym]
-      
-      unless powiaty_wyniki[powiat.to_sym]
-        powiaty_wyniki[powiat.to_sym] = 0
-      end
-      powiaty_wyniki[powiat.to_sym] += num
+      powiat = cols.last      
+      powiaty[powiat.to_sym][:days] << num
     end
-    dni += 1
-  end
-
-  puts
-  puts "Prognoza z #{dni} dni:"
-  puts
-  puts "```"
-
-  powiaty_wyniki.each do |powiat,num|
-    ludnosc = powiaty[powiat.to_sym]
+    days += 1
     
-    na_10_tys = num.to_f/dni*14/(ludnosc.to_f/10)
+    powiaty.each do |k, v|
+      if powiaty[k][:days].size < days
+        powiaty[k][:days] << 0
+      end
+    end
+  end
+  powiaty
+end
+
+def generate_prognosis(powiaty, count)
+  powiaty.each do |k, v|
+    days_data = powiaty[k][:days][-1*count, count]
+    sum = days_data.sum
+    
+    na_10_tys = (sum.to_f/count*14/(powiaty[k][:residents].to_f/10)).round(2)
     kolor = if na_10_tys >= 12
       "czerwony"
     elsif na_10_tys >= 6
@@ -64,15 +60,39 @@ def count_results_for_days(powiaty, result_days, count)
     else
       "zielony"
     end
-    p [num, powiat, ludnosc, na_10_tys, kolor]
+    powiaty[k]["prognosis_#{count}".to_sym] = [na_10_tys, kolor]
   end
-  puts "```"
+  powiaty
 end
 
+def generate_moving_sums(powiaty, count)
+  powiaty.each do |k, v|
+    days_data = powiaty[k][:days]
+    moving_sums = days_data.each_cons(count).to_a.map do |arr|
+      (arr.sum.to_f/count*14/(powiaty[k][:residents].to_f/10)).round(2)
+    end
+
+    powiaty[k][:moving_sums] = moving_sums
+  end
+  powiaty
+end
+
+powiaty = parse_results(powiaty, result_days)
+powiaty = generate_prognosis(powiaty, 14)
+powiaty = generate_moving_sums(powiaty, 5)
+
 puts "# covid19"
-count_results_for_days(powiaty, wyniki_dni, 1)
-count_results_for_days(powiaty, wyniki_dni, 3)
-count_results_for_days(powiaty, wyniki_dni, 7)
-count_results_for_days(powiaty, wyniki_dni, 14)
+puts
+puts "```"
+powiaty.each do |k, v|
+  puts k
+  puts "Zachorowania: #{v[:days][-14,14]}"
+  puts "Prognoza z ostatnich 14 dni: #{v[:prognosis_14]}"
+  puts "Ruchoma suma z 5 dni: #{v[:moving_sums]}"
+  puts
+end
+puts "```"
+puts "Wszystkie liczby są średnią zachorowań na N dni, po przeliczeniu na 14 dni, na 10 tysięcy mieszkańców."
+puts "Kolory: poniżej 6 zielony, pomiędzy 6 i 12 żółty, powyżej 12 czerwony."
 puts
 puts "(generated from sanepid_pomorze.rb)"

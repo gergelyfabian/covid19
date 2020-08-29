@@ -1,91 +1,108 @@
 # covid19
 
-Prognoza z 1 dni:
+```
+bytowski
+Zachorowania: [0, 0, 0, 1, 1, 0, 0, 0, 0, 2, 0, 1, 0, 0]
+Prognoza z ostatnich 14 dni: [0.63, "zielony"]
+Ruchoma suma z 5 dni: [0.7, 0.35, 0.7, 0.7, 0.7, 0.7, 0.35, 0.7, 0.7, 1.05, 1.05, 1.05]
+
+chojnicki
+Zachorowania: [0, 0, 0, 0, 1, 3, 0, 0, 3, 0, 1, 3, 0, 1]
+Prognoza z ostatnich 14 dni: [1.24, "zielony"]
+Ruchoma suma z 5 dni: [0.58, 0.29, 0.29, 1.15, 1.15, 1.15, 2.02, 1.73, 1.15, 2.02, 2.02, 1.44]
+
+człuchowski
+Zachorowania: [0, 3, 0, 0, 1, 0, 2, 0, 0, 0, 0, 0, 0, 1]
+Prognoza z ostatnich 14 dni: [1.25, "zielony"]
+Ruchoma suma z 5 dni: [1.5, 1.5, 2.0, 2.0, 1.5, 1.5, 1.5, 1.0, 1.0, 0.0, 0.0, 0.5]
+
+gdański
+Zachorowania: [1, 2, 5, 4, 3, 5, 3, 1, 0, 1, 2, 5, 2, 3]
+Prognoza z ostatnich 14 dni: [3.14, "zielony"]
+Ruchoma suma z 5 dni: [3.32, 3.56, 3.56, 4.51, 4.75, 3.8, 2.85, 2.37, 1.66, 2.14, 2.37, 3.08]
+
+kartuski
+Zachorowania: [5, 8, 6, 5, 0, 4, 2, 16, 10, 24, 2, 3, 5, 4]
+Prognoza z ostatnich 14 dni: [6.76, "żółty"]
+Ruchoma suma z 5 dni: [6.04, 6.04, 4.83, 4.63, 3.42, 5.44, 6.45, 11.28, 10.88, 11.08, 8.86, 7.65]
+
+wejherowski
+Zachorowania: [3, 3, 9, 6, 8, 10, 7, 16, 10, 14, 6, 7, 9, 2]
+Prognoza z ostatnich 14 dni: [5.07, "prawie żółty"]
+Ruchoma suma z 5 dni: [2.32, 3.1, 3.74, 4.65, 5.16, 6.06, 6.58, 7.35, 6.84, 6.84, 5.94, 4.9]
+
+starogardzki
+Zachorowania: [12, 0, 7, 7, 12, 24, 9, 0, 8, 6, 3, 7, 0, 6]
+Prognoza z ostatnich 14 dni: [7.89, "żółty"]
+Ruchoma suma z 5 dni: [6.78, 7.87, 8.31, 10.94, 12.91, 11.37, 11.59, 10.28, 5.69, 5.25, 5.25, 4.81]
+
+sztumski
+Zachorowania: [8, 0, 0, 2, 1, 1, 1, 5, 1, 0, 1, 0, 0, 0]
+Prognoza z ostatnich 14 dni: [4.88, "prawie żółty"]
+Ruchoma suma z 5 dni: [8.2, 8.2, 7.51, 2.73, 3.41, 6.83, 6.15, 5.46, 5.46, 4.78, 1.37, 0.68]
+
+tczewski
+Zachorowania: [3, 1, 0, 1, 0, 11, 6, 2, 0, 9, 1, 6, 0, 3]
+Prognoza z ostatnich 14 dni: [3.74, "zielony"]
+Ruchoma suma z 5 dni: [2.43, 2.43, 1.22, 3.17, 4.38, 4.87, 4.63, 6.82, 4.38, 4.38, 3.9, 4.63]
+
+Gdańsk
+Zachorowania: [24, 17, 13, 19, 15, 16, 17, 28, 12, 19, 25, 24, 14, 6]
+Prognoza z ostatnich 14 dni: [5.3, "prawie żółty"]
+Ruchoma suma z 5 dni: [4.94, 5.3, 5.24, 4.77, 4.77, 5.66, 5.24, 5.48, 6.02, 6.43, 5.6, 5.24]
+
+Gdynia
+Zachorowania: [10, 13, 6, 3, 17, 3, 10, 7, 6, 4, 12, 6, 5, 11]
+Prognoza z ostatnich 14 dni: [4.59, "prawie żółty"]
+Ruchoma suma z 5 dni: [4.67, 4.33, 5.58, 4.78, 4.44, 4.55, 4.89, 3.41, 4.44, 3.98, 3.76, 4.33]
+
+Sopot
+Zachorowania: [4, 0, 0, 1, 1, 2, 2, 4, 4, 2, 0, 1, 0, 2]
+Prognoza z ostatnich 14 dni: [6.57, "żółty"]
+Ruchoma suma z 5 dni: [6.4, 4.8, 4.8, 3.2, 4.8, 8.0, 10.4, 11.2, 9.6, 8.8, 5.6, 4.0]
+
+kościerski
+Zachorowania: [0, 0, 1, 0, 1, 1, 1, 0, 0, 4, 0, 7, 0, 3]
+Prognoza z ostatnich 14 dni: [2.5, "zielony"]
+Ruchoma suma z 5 dni: [1.17, 1.17, 0.78, 1.17, 1.56, 1.17, 1.17, 2.33, 1.94, 4.28, 4.28, 5.44]
+
+lęborski
+Zachorowania: [0, 0, 1, 3, 0, 1, 1, 1, 2, 0, 0, 0, 0, 0]
+Prognoza z ostatnich 14 dni: [1.36, "zielony"]
+Ruchoma suma z 5 dni: [2.12, 3.39, 1.7, 2.12, 2.55, 2.55, 2.12, 2.12, 1.7, 1.27, 0.85, 0.0]
+
+malborski
+Zachorowania: [4, 0, 0, 3, 0, 1, 2, 1, 0, 5, 2, 0, 1, 1]
+Prognoza z ostatnich 14 dni: [3.17, "zielony"]
+Ruchoma suma z 5 dni: [1.78, 3.11, 3.11, 1.78, 2.67, 3.11, 1.78, 4.0, 4.44, 3.56, 3.56, 4.0]
+
+nowodworski
+Zachorowania: [2, 1, 0, 0, 2, 1, 0, 1, 0, 0, 0, 0, 1, 1]
+Prognoza z ostatnich 14 dni: [1.14, "zielony"]
+Ruchoma suma z 5 dni: [2.13, 1.77, 1.77, 1.42, 1.06, 1.42, 1.42, 0.71, 0.35, 0.35, 0.35, 0.71]
+
+pucki
+Zachorowania: [1, 3, 3, 1, 4, 6, 2, 2, 2, 2, 3, 1, 2, 1]
+Prognoza z ostatnich 14 dni: [3.93, "zielony"]
+Ruchoma suma z 5 dni: [7.0, 5.0, 4.0, 5.67, 5.33, 5.0, 5.33, 4.67, 3.67, 3.33, 3.33, 3.0]
+
+Słupsk
+Zachorowania: [2, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0]
+Prognoza z ostatnich 14 dni: [0.3, "zielony"]
+Ruchoma suma z 5 dni: [0.26, 0.34, 0.43, 0.26, 0.17, 0.26, 0.26, 0.26, 0.34, 0.34, 0.34, 0.26]
+
+kwidzyński
+Zachorowania: [5, 0, 0, 2, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
+Prognoza z ostatnich 14 dni: [1.07, "zielony"]
+Ruchoma suma z 5 dni: [1.67, 2.33, 2.33, 0.67, 0.67, 1.0, 0.33, 0.33, 0.67, 0.67, 0.33, 0.33]
+
+słupski
+Zachorowania: [1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 2, 0]
+Prognoza z ostatnich 14 dni: [0.51, "zielony"]
+Ruchoma suma z 5 dni: [0.57, 0.86, 0.57, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.29, 0.86, 0.57]
 
 ```
-[14, :Gdańsk, 470, 4.170212765957447, "prawie żółty"]
-[9, :wejherowski, 217, 5.806451612903226, "prawie żółty"]
-[5, :Gdynia, 246, 2.8455284552845526, "zielony"]
-[5, :kartuski, 139, 5.0359712230215825, "prawie żółty"]
-[2, :gdański, 118, 2.3728813559322033, "zielony"]
-[2, :słupski, 98, 2.8571428571428568, "zielony"]
-[2, :pucki, 84, 3.333333333333333, "zielony"]
-[1, :malborski, 63, 2.2222222222222223, "zielony"]
-[1, :nowodworski, 79, 1.7721518987341771, "zielony"]
-[1, :Słupsk, 328, 0.426829268292683, "zielony"]
-```
-
-Prognoza z 3 dni:
-
-```
-[63, :Gdańsk, 470, 6.25531914893617, "żółty"]
-[23, :Gdynia, 246, 4.363143631436315, "prawie żółty"]
-[22, :wejherowski, 217, 4.731182795698924, "prawie żółty"]
-[6, :pucki, 84, 3.333333333333333, "zielony"]
-[10, :starogardzki, 128, 3.6458333333333335, "zielony"]
-[3, :malborski, 63, 2.2222222222222223, "zielony"]
-[10, :kartuski, 139, 3.3573141486810556, "zielony"]
-[9, :gdański, 118, 3.559322033898305, "zielony"]
-[4, :chojnicki, 97, 1.924398625429553, "zielony"]
-[2, :Słupsk, 328, 0.2845528455284553, "zielony"]
-[1, :kwidzyński, 84, 0.5555555555555555, "zielony"]
-[1, :sztumski, 41, 1.1382113821138211, "zielony"]
-[7, :tczewski, 115, 2.840579710144928, "zielony"]
-[7, :kościerski, 72, 4.537037037037037, "prawie żółty"]
-[1, :bytowski, 80, 0.5833333333333333, "zielony"]
-[1, :Sopot, 35, 1.3333333333333333, "zielony"]
-[2, :słupski, 98, 0.9523809523809522, "zielony"]
-[1, :nowodworski, 79, 0.590717299578059, "zielony"]
-```
-
-Prognoza z 7 dni:
-
-```
-[139, :Gdańsk, 470, 5.914893617021277, "prawie żółty"]
-[50, :Gdynia, 246, 4.0650406504065035, "prawie żółty"]
-[33, :starogardzki, 128, 5.15625, "prawie żółty"]
-[69, :wejherowski, 217, 6.359447004608295, "żółty"]
-[24, :tczewski, 115, 4.173913043478261, "prawie żółty"]
-[14, :gdański, 118, 2.3728813559322033, "zielony"]
-[62, :kartuski, 139, 8.920863309352518, "żółty"]
-[13, :Sopot, 35, 7.428571428571429, "żółty"]
-[14, :pucki, 84, 3.333333333333333, "zielony"]
-[11, :malborski, 63, 3.492063492063492, "zielony"]
-[2, :człuchowski, 56, 0.7142857142857143, "zielony"]
-[12, :kościerski, 72, 3.333333333333333, "zielony"]
-[4, :lęborski, 66, 1.2121212121212122, "zielony"]
-[8, :sztumski, 41, 3.9024390243902443, "zielony"]
-[2, :kwidzyński, 84, 0.47619047619047616, "zielony"]
-[2, :nowodworski, 79, 0.5063291139240506, "zielony"]
-[5, :Słupsk, 328, 0.30487804878048785, "zielony"]
-[7, :chojnicki, 97, 1.4432989690721651, "zielony"]
-[3, :słupski, 98, 0.6122448979591836, "zielony"]
-[3, :bytowski, 80, 0.75, "zielony"]
-```
-
-Prognoza z 14 dni:
-
-```
-[259, :Gdańsk, 470, 5.51063829787234, "prawie żółty"]
-[105, :starogardzki, 128, 8.203125, "żółty"]
-[39, :pucki, 84, 4.642857142857142, "prawie żółty"]
-[108, :Gdynia, 246, 4.390243902439024, "prawie żółty"]
-[96, :kartuski, 139, 6.906474820143885, "żółty"]
-[45, :tczewski, 115, 3.9130434782608696, "zielony"]
-[111, :wejherowski, 217, 5.11520737327189, "prawie żółty"]
-[13, :lęborski, 66, 1.9696969696969697, "zielony"]
-[37, :gdański, 118, 3.1355932203389827, "zielony"]
-[22, :sztumski, 41, 5.365853658536586, "prawie żółty"]
-[10, :nowodworski, 79, 1.2658227848101264, "zielony"]
-[17, :kościerski, 72, 2.361111111111111, "zielony"]
-[6, :słupski, 98, 0.6122448979591836, "zielony"]
-[12, :chojnicki, 97, 1.2371134020618557, "zielony"]
-[22, :Sopot, 35, 6.285714285714286, "żółty"]
-[9, :kwidzyński, 84, 1.0714285714285714, "zielony"]
-[19, :malborski, 63, 3.015873015873016, "zielony"]
-[10, :Słupsk, 328, 0.30487804878048785, "zielony"]
-[6, :człuchowski, 56, 1.0714285714285714, "zielony"]
-[5, :bytowski, 80, 0.625, "zielony"]
-```
+Wszystkie liczby są średnią zachorowań na N dni, po przeliczeniu na 14 dni, na 10 tysięcy mieszkańców.
+Kolory: poniżej 6 zielony, pomiędzy 6 i 12 żółty, powyżej 12 czerwony.
 
 (generated from sanepid_pomorze.rb)
