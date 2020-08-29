@@ -87,12 +87,12 @@ puts "```"
 powiaty.each do |k, v|
   puts k
   puts "Zachorowania: #{v[:days][-14,14]}"
-  puts "Prognoza z ostatnich 14 dni: #{v[:prognosis_14]}"
-  puts "Ruchoma suma z 5 dni: #{v[:moving_sums]}"
+  puts "Suma z ostatnich 14 dni: #{v[:prognosis_14]}"
+  puts "Ruchome sumy z 5 dni: #{v[:moving_sums]}"
   puts
 end
 puts "```"
-puts "Wszystkie liczby są średnią zachorowań na N dni, po przeliczeniu na 14 dni, na 10 tysięcy mieszkańców."
+puts "Wszystkie sumy są sumą zachorowań na N dni, po przeliczeniu proporcjonalnie na 14 dni, na 10 tysięcy mieszkańców."
 puts "Kolory: poniżej 6 zielony, pomiędzy 6 i 12 żółty, powyżej 12 czerwony."
 puts
 puts "(generated from sanepid_pomorze.rb)"
