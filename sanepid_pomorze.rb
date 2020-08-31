@@ -87,10 +87,10 @@ puts
 puts "```"
 powiaty.each do |k, v|
   puts "#{k}, #{v[:residents]*1000} mieszkańców"
-  puts "Zachorowania: #{v[:days][-14,14]}"
+  puts "Zachorowania z 14 dni: #{v[:days][-14,14]}"
   puts "Suma z ostatnich 14 dni: #{v[:prognosis_14]}"
-  puts "Ruchome sumy z 5 dni: #{v[:moving_sums_5]}"
-  puts "Ruchome sumy z 1 dnia: #{v[:moving_sums_1]}"
+  puts "Ruchome sumy z 5 dni: #{v[:moving_sums_5][-8,8]}"
+  puts "Ruchome sumy z 1 dnia: #{v[:moving_sums_1][-8,8]}"
   puts
 end
 puts "```"
