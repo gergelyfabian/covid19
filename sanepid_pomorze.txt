@@ -237,3 +237,31 @@
 1 osoba powiat chojnicki,
 1 osoba powiat człuchowski,
 1 osoba powiat malborski.
+
+# 08.30
+16 osób miasto Gdańsk,
+10 osób powiat starogardzki,
+7 osób miasto Gdynia,
+5 osób powiat kartuski,
+4 osoby powiat pucki,
+3 osoby powiat gdański,
+3 osoby powiat wejherowski,
+1 osoba powiat kościerski,
+1 osoba powiat miasto Sopot,
+1 osoba powiat nowodworski,
+1 osoba powiat chojnicki,
+1 osoba powiat kwidzyński.
+
+# 08.31
+27 osób powiat starogardzki,
+9 osób miasto Gdańsk,
+9 osób powiat tczewski,
+7 osób powiat wejherowski,
+5 osób miasto Gdynia,
+5 osób powiat kartuski,
+3 osoby powiat pucki,
+3 osoby powiat kościerski, 
+2 osoby powiat gdański,
+2 osoby powiat kwidzyński,
+2 osoby powiat słupski,
+1 osoba powiat lęborski.

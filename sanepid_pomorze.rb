@@ -72,23 +72,25 @@ def generate_moving_sums(powiaty, count)
       (arr.sum.to_f/count*14/(powiaty[k][:residents].to_f/10)).round(2)
     end
 
-    powiaty[k][:moving_sums] = moving_sums
+    powiaty[k]["moving_sums_#{count}".to_sym] = moving_sums
   end
   powiaty
 end
 
 powiaty = parse_results(powiaty, result_days)
 powiaty = generate_prognosis(powiaty, 14)
+powiaty = generate_moving_sums(powiaty, 1)
 powiaty = generate_moving_sums(powiaty, 5)
 
 puts "# covid19"
 puts
 puts "```"
 powiaty.each do |k, v|
-  puts k
+  puts "#{k}, #{v[:residents]*1000} mieszkańców"
   puts "Zachorowania: #{v[:days][-14,14]}"
   puts "Suma z ostatnich 14 dni: #{v[:prognosis_14]}"
-  puts "Ruchome sumy z 5 dni: #{v[:moving_sums]}"
+  puts "Ruchome sumy z 5 dni: #{v[:moving_sums_5]}"
+  puts "Ruchome sumy z 1 dnia: #{v[:moving_sums_1]}"
   puts
 end
 puts "```"
