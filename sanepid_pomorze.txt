@@ -289,3 +289,19 @@
 1 osoba powiat kwidzyński
 1 osoba miasto Sopot
 1 osoba powiat bytowski
+
+# 09.03
+11 osób miasto Gdańsk
+7 osób powiat gdański
+5 osób powiat wejherowski
+6 osób miasto Gdynia
+4 osoby powiat kartuski
+3 osoby powiat starogardzki
+2 osoby powiat tczewski
+1 osoba powiat sztumski
+1 osoba powiat nowodworski
+1 osoba miasto Sopot
+1 osoba powiat chojnicki
+1 osoba powiat pucki
+1 osoba powiat słupski
+
