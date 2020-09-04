@@ -305,3 +305,15 @@
 1 osoba powiat pucki
 1 osoba powiat słupski
 
+# 09.04
+10 osób miasto Gdańsk
+10 osób powiat kartuski
+6 osób powiat kościerski
+4 osoby powiat starogardzki
+4 osoby miasto Gdynia
+2 osoby powiat gdański
+2 osoby powiat wejherowski
+1 osoba powiat chojnicki
+1 osoba powiat malborski
+1 osoba powiat tczewski
+
