@@ -355,3 +355,13 @@
 1 os. powiat kwidzyński
 1 os. miasto Słupsk
 
+# 09.08
+10 osób miasto Gdańsk
+8 osób powiat wejherowski
+3 osoby miasto Gdynia
+1 osoba powiat chojnicki
+1 osoba powiat kartuski
+1 osoba powiat pucki
+1 osoba powiat słupski
+1 osoba powiat bytowski
+
