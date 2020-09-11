@@ -365,3 +365,40 @@
 1 osoba powiat słupski
 1 osoba powiat bytowski
 
+# 09.09
+13 osób powiat bytowski
+7 osób miasto Gdańsk
+6 osób miasto Gdynia
+3 osoby powiat tczewski
+2 osoby powiat kartuski
+2 osoby powiat gdański
+2 osoby powiat wejherowski
+1 osoba powiat starogardzki
+1 osoba powiat pucki
+1 osoba powiat słupski
+
+# 09.10
+8 osób miasto Gdańsk
+4 osoby miasto Gdynia
+4 osoby powiat kwidzyński
+4 osoby powiat wejherowski
+4 osoby powiat bytowski
+3 osoby powiat pucki
+2 osoby powiat kartuski
+1 osoba powiat starogardzki
+1 osoba powiat gdański
+1 osoba powiat nowodworski
+
+# 09.11
+14 osób miasto Gdańsk
+5 osób powiat pucki
+5 osób miasto Gdynia
+4 osoby powiat wejherowski
+2 osoby powiat starogardzki
+2 osoby powiat tczewski
+2 osoby powiat gdański
+2 osoby powiat kościerski
+1 osoba miasto Sopot
+1 osoba powiat bytowski
+1 osoba powiat kartuski
+
