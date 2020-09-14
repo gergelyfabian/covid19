@@ -402,3 +402,28 @@
 1 osoba powiat bytowski
 1 osoba powiat kartuski
 
+# 09.12
+48 osób powiat bytowski
+12 osób miasto Gdańsk
+10 osób miasto Gdynia
+2 osoby powiat wejherowski
+2 osoby powiat kościerski
+1 osoba powiat starogardzki
+1 osoba powiat tczewski
+1 osoba powiat chojnicki
+1 osoba powiat gdański
+1 osoba powiat kwidzyński
+
+# 09.13
+16 osób powiat bytowski
+8 osób miasto Gdańsk
+8 osób powiat pucki
+7 osób miasto Gdynia  
+4 osoby powiat wejherowski
+3 osoby powiat kościerski
+3 osoby powiat kartuski
+2 osoby powiat chojnicki
+2 osoby powiat gdański
+1 osoba powiat malborski
+1 osoba miasto Sopot
+
