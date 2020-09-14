@@ -427,3 +427,17 @@
 1 osoba powiat malborski
 1 osoba miasto Sopot
 
+# 09.14
+9 osób miasto Gdańsk
+9 osób powiat wejherowski
+7 osób miasto Gdynia
+4 osoby powiat tczewski
+4 osoby powiat bytowski
+3 osoby powiat kartuski
+3 osoby miasto Słupsk  
+2 osoby powiat gdański
+1 osoba powiat pucki
+1 osoba powiat kościerski
+1 osoba powiat słupski
+1 osoba powiat lęborski 
+1 osoba miasto Sopot
