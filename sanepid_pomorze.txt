@@ -441,3 +441,32 @@
 1 osoba powiat słupski
 1 osoba powiat lęborski 
 1 osoba miasto Sopot
+
+# 09.15
+12 osób powiat bytowski
+8 osób miasto Gdańsk
+6 osób powiat wejherowski
+5 osób miasto Gdynia
+3 osoby miasto Słupsk
+2 osoby powiat kartuski
+1 osoba miasto Sopot
+1 osoba powiat chojnicki
+1 osoba powiat pucki
+1 osoba powiat kwidzyński
+1 osoba powiat kościerski
+
+# 09.16
+10 osób miasto Gdynia
+9 osób miasto Gdańsk
+9 osób powiat wejherowski
+7 osób powiat bytowski
+5 osób powiat kartuski
+4 osoby powiat chojnicki
+2 osoby powiat tczewski
+2 osoby powiat kościerski
+1 osoba powiat słupski
+1 osoba powiat gdański
+1 osoba powiat pucki
+1 osoba powiat malborski
+1 osoba powiat kwidzyński
+
