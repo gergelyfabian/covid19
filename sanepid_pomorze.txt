@@ -470,3 +470,17 @@
 1 osoba powiat malborski
 1 osoba powiat kwidzyński
 
+# 09.17
+49 osób powiat kartuski
+36 osób powiat bytowski
+14 osób miasto Gdańsk
+8 osób powiat kościerski
+8 osób powiat wejherowski
+5 osób miasto Gdynia
+3 osoby powiat chojnicki
+4 osoby miasto Słupsk
+2 osoby powiat słupski
+3 osoby powiat pucki
+1 osoba miasto Sopot
+1 osoba powiat starogardzki
+
