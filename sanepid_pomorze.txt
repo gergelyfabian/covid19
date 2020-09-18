@@ -484,3 +484,19 @@
 1 osoba miasto Sopot
 1 osoba powiat starogardzki
 
+# 09.18
+21 osoby miasto Gdańsk
+11 osób powiat kartuski
+6 osób powiat wejherowski
+6 osób powiat bytowski
+5 osób powiat chojnicki
+5 osób powiat gdański
+4 osoby powiat kościerski
+3 osoby powiat pucki
+3 osoby miasto Gdynia
+2 osoby powiat starogardzki
+2 osoby miasto Słupsk  
+2 osoby powiat kwidzyński
+2 osoby powiat słupski
+1 osoba miasto Sopot
+
