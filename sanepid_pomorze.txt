@@ -548,3 +548,19 @@
 1 osoba powiat kościerski
 1 osoba powiat starogardzki
 
+# 09.22
+18 osób powiat wejherowski
+15 osób powiat kartuski
+13 osób miasto Gdańsk
+11 osób miasto Gdynia
+5 osób miasto Sopot
+5 osób powiat tczewski
+3 osoby powiat pucki
+2 osoby powiat bytowski
+2 osoby powiat gdański
+2 osoby powiat kościerski
+2 osoby powiat lęborski
+2 osoby miasto Słupsk  
+2 osoby powiat starogardzki
+1 osoba powiat chojnicki
+
