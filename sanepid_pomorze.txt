@@ -564,3 +564,21 @@
 2 osoby powiat starogardzki
 1 osoba powiat chojnicki
 
+# 09.23
+28 osób miasto Gdańsk
+10 osób miasto Słupsk
+9 osób powiat kartuski
+8 osób miasto Gdynia
+8 osób powiat chojnicki
+8 osób powiat nowodworski
+7 osób powiat gdański
+6 osób powiat bytowski
+6 osób powiat wejherowski
+5 osób powiat pucki
+4 osoby powiat kwidzyński
+4 osoby powiat kościerski
+4 osoby miasto Sopot
+3 osoby powiat słupski
+2 osoby powiat starogardzki
+2 osoby powiat tczewski
+
