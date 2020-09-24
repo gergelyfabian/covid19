@@ -582,3 +582,22 @@
 2 osoby powiat starogardzki
 2 osoby powiat tczewski
 
+# 09.24
+25 osób powiat kartuski
+24 osoby miasto Gdańsk
+20 osób powiat wejherowski
+17 osób miasto Sopot
+15 osób miasto Gdynia
+9 osób miasto Słupsk
+7 osób powiat słupski
+5 osób powiat gdański
+4 osoby powiat kwidzyński
+3 osoby  powiat kościerski
+3 osoby powiat tczewski
+2 osoby powiat pucki
+2 osoby powiat chojnicki
+2 osoby powiat nowodworski
+2 osoby powiat starogardzki
+2 osoba powiat lęborski
+1 osoba powiat malborski
+
