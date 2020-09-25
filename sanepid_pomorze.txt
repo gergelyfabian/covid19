@@ -601,3 +601,22 @@
 2 osoba powiat lęborski
 1 osoba powiat malborski
 
+# 09.25
+29 osób miasto Gdańsk
+24 osób powiat kartuski
+14 osób  miasto Gdynia
+10 osób powiat kościerski
+10 osób powiat wejherowski
+9 osób powiat gdański
+6 osób powiat bytowski
+4 osoby powiat pucki
+5 osób miasto Sopot
+4 osoby powiat chojnicki
+3 osoby miasto Słupsk
+2 osoby powiat lęborski
+2 osoby powiat starogardzki
+2 osoby powiat kwidzyński
+2 osoba powiat tczewski
+1 osoba powiat człuchowski
+1 osoba powiat słupski
+
