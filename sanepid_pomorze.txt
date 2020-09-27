@@ -639,3 +639,42 @@
 1 osoba powiat nowodworski
 1 osoba powiat człuchowski
 
+# 09.27
+58 osób powiat kartuski
+26 osób miasto Gdańsk
+20 osób powiat słupski
+15 osób miasto Gdynia
+14 osób miasto Słupsk
+11 osób tczewski
+9 osób powiat pucki
+8 osób powiat wejherowski
+8 osób powiat gdański
+6 osób powiat nowodworski
+5 osób powiat starogardzki
+3 osoby miasto Sopot
+3 osoby powiat malborski
+1 osoba powiat chojnicki
+1 osoba powiat kwidzyński
+1 osoba powiat kościerski
+1 osoba powiat sztumski
+1 osoba powiat lęborski
+
+# 09.28
+26 osób powiat kartuski
+25 osób miasto Gdańsk
+14 osób powiat słupski
+14 osób miasto Gdynia
+11 osób powiat wejherowski
+11 osób powiat kościerski
+9 osób miasto Słupsk
+9 osób powiat starogardzki
+8 osób powiat bytowski
+6 osób powiat pucki
+4 osoby powiat gdański
+4 osoby powiat chojnicki
+3 osoby powiat tczewski
+3 osoby miasto Sopot
+1 osoba powiat kwidzyński
+1 osoba powiat człuchowski
+1 osoba powiat malborski
+
