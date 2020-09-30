@@ -699,3 +699,23 @@
 1 osoba powiat kwidzyński
 1 osoba powiat sztumski
 
+# 09.30
+51 osób miasto Gdańsk
+20 osób miasto Gdynia
+16 osób powiat kartuski
+16 osób powiat wejherowski
+13 osób powiat pucki
+11 osób powiat gdański
+10 osób powiat tczewski
+9 osób powiat słupski
+9 osób powiat starogardzki
+9 osób powiat kościerski
+7 osób miasto Sopot
+6 osób powiat nowodworski
+6 osób powiat bytowski
+4 osoby powiat lęborski
+3 osoby powiat chojnicki
+2 osoby powiat malborski
+1 osoba miasto Słupsk
+1 osoba powiat kwidzyński
+
