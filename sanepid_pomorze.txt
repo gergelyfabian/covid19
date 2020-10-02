@@ -740,3 +740,24 @@
 1 osoba powiat nowodworski
 1 osoba powiat bytowski
 
+# 10.02
+53 osoby miasto Gdańsk
+25 osób miasto Gdynia
+19 osób powiat pucki
+18 osób powiat słupski
+17 osób powiat starogardzki
+15 osób powiat kartuski
+15 osób powiat wejherowski
+11 osób powiat kościerski
+10 osób powiat nowodworski
+8 osób powiat chojnicki
+7 osób miasto Sopot
+7 osób miasto Słupsk
+6 osób powiat lęborski
+5 osób powiat gdański
+3 osoby powiat tczewski
+3 osoby powiat bytowski
+3 osoby powiat kwidzyński
+2 osoby powiat człuchowski
+1 osoba powiat malborski
+
