@@ -825,3 +825,24 @@
 1 osoba powiat malborski
 1 osoba powiat człuchowski
 
+# 10.06
+62 osoby miasto Gdańsk
+24 osoby powiat kartuski
+23 osoby powiat pucki
+14 osób powiat chojnicki
+8 osób powiat starogardzki
+11 osób miasto Gdynia
+8 osób powiat gdański
+8 osób powiat kościerski
+7 osób miasto Słupsk
+5 osób powiat tczewski
+5 osób powiat kwidzyński
+5 osób powiat lęborski
+4 osoby powiat wejherowski
+4 osoby powiat słupski
+4 osoby powiat nowodworski
+3 osoby powiat bytowski
+2 osoby powiat człuchowski
+1 osoba miasto Sopot
+1 osoba powiat sztumski
+
