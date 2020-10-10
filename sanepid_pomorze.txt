@@ -909,3 +909,25 @@
 2 osoby powiat sztumski
 1 osoba powiat nowodworski
 
+# 10.10
+82 os. miasto Gdańsk
+44 os. p. kartuski
+37 os. miasto Gdynia
+33 os. p. wejherowski
+24 os. p. chojnicki
+23 os. p. starogardzki
+21 os. p. pucki
+19 os. p. tczewski
+12 os. p. gdański
+10 os. p. kościerski
+10 os. p. słupski
+9 os. miasto Słupsk
+9 os. p. bytowski
+7 os. p. lęborski
+6 os. miasto Sopot
+5 os. p. kwidzyński
+5 os. p. malborski
+3 os. p. człuchowski
+2 os. p. nowodworski
+1 os. p. sztumski
+
