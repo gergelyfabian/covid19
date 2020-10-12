@@ -931,3 +931,45 @@
 2 os. p. nowodworski
 1 os. p. sztumski
 
+# 10.11
+50 os. miasto Gdańsk
+38 os. p. wejherowski
+33 os. miasto Gdynia
+33 os. p. gdański
+29 os. p. kartuski
+22 os. p. pucki
+20 os. p. chojnicki
+17 os. miasto Słupsk
+17 os. p. tczewski
+15 os. p. starogardzki
+11 os. p. lęborski
+11 os. p. słupski
+10 os. p. kościerski
+8 os. p. kwidzyński
+5 os. p. bytowski
+5 os. p. malborski
+4 os. miasto Sopot
+3 os. p. nowodworski
+
+# 10.12
+92 os. miasto Gdańsk
+27 os. p. starogardzki
+25 os. p. kartuski
+20 os. miasto Gdynia
+18 os. p. gdański
+18 os. p. kwidzyński
+15 os. p. pucki
+12 os. p. bytowski
+12 os. p. wejherowski
+8 os. p. lęborski
+7 os. miasto Sopot
+7 os. miasto Słupsk
+6 os. p. kościerski
+5 os. p. tczewski
+3 os. p. chojnicki
+3 os. p. słupski
+3 os. p. nowodworski
+1 os. p. malborski
+1 os. p. człuchowski
+1 os. p. sztumski
+
