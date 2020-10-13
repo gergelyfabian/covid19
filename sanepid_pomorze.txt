@@ -973,3 +973,25 @@
 1 os. p. człuchowski
 1 os. p. sztumski
 
+# 10.13
+57 osób miasto Gdańsk
+50 osób powiat wejherowski 
+42 osób miasto Gdynia 
+41 osób powiat kartuski 
+29 osób powiat starogardzki
+17 osób powiat lęborski 
+12 osób powiat pucki 
+10 osób powiat gdański 
+10 osób powiat bytowski 
+9 osób powiat kościerski
+9 osób powiat tczewski
+7 osób miasto Słupsk 
+7 osób miasto Sopot 
+4 osoby powiat sztumski 
+4 osoby powiat chojnicki 
+3 osoby powiat człuchowski 
+3 osoby powiat słupski 
+2 osoby powiat nowodworski 
+1 osoba powiat malborski
+1 osoba powiat kwidzyński
+

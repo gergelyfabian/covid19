@@ -53,12 +53,8 @@ def generate_prognosis(powiaty, count)
     na_10_tys = (sum.to_f/count*14/(powiaty[k][:residents].to_f/10)).round(2)
     kolor = if na_10_tys >= 12
       "czerwony"
-    elsif na_10_tys >= 6
-      "żółty"
-    elsif na_10_tys >= 4
-      "prawie żółty"
     else
-      "zielony"
+      "żółty"
     end
     powiaty[k]["prognosis_#{count}".to_sym] = [na_10_tys, kolor]
   end
@@ -95,6 +91,6 @@ powiaty.each do |k, v|
 end
 puts "```"
 puts "Wszystkie sumy są sumą zachorowań na N dni, po przeliczeniu proporcjonalnie na 14 dni, na 10 tysięcy mieszkańców."
-puts "Kolory: poniżej 6 zielony, pomiędzy 6 i 12 żółty, powyżej 12 czerwony."
+puts "Kolory: powyżej 12 czerwony, poniżej żółty."
 puts
 puts "(generated from sanepid_pomorze.rb)"
