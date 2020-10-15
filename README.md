@@ -43,11 +43,11 @@ Suma z ostatnich 14 dni: [21.64, "czerwony"]
 Ruchome sumy z 5 dni: [14.88, 18.81, 20.78, 22.31, 25.38, 27.34, 24.06, 26.91]
 Ruchome sumy z 1 dnia: [21.88, 33.91, 25.16, 16.41, 29.53, 31.72, 17.5, 39.38]
 
-sztumski, 41000 mieszkańców
+sztumski, 42000 mieszkańców
 Zachorowania z 14 dni: [0, 0, 5, 2, 1, 1, 1, 2, 1, 0, 1, 4, 3, 1]
-Suma z ostatnich 14 dni: [5.37, "żółty"]
-Ruchome sumy z 5 dni: [6.83, 4.78, 4.1, 3.41, 3.41, 5.46, 6.15, 6.15]
-Ruchome sumy z 1 dnia: [3.41, 6.83, 3.41, 0.0, 3.41, 13.66, 10.24, 3.41]
+Suma z ostatnich 14 dni: [5.24, "żółty"]
+Ruchome sumy z 5 dni: [6.67, 4.67, 4.0, 3.33, 3.33, 5.33, 6.0, 6.0]
+Ruchome sumy z 1 dnia: [3.33, 6.67, 3.33, 0.0, 3.33, 13.33, 10.0, 3.33]
 
 tczewski, 115000 mieszkańców
 Zachorowania z 14 dni: [3, 16, 18, 8, 5, 13, 16, 8, 19, 17, 5, 9, 20, 18]
@@ -55,11 +55,11 @@ Suma z ostatnich 14 dni: [15.22, "czerwony"]
 Ruchome sumy z 5 dni: [14.61, 12.17, 14.85, 17.77, 15.83, 14.12, 17.04, 16.8]
 Ruchome sumy z 1 dnia: [19.48, 9.74, 23.13, 20.7, 6.09, 10.96, 24.35, 21.91]
 
-Gdańsk, 470000 mieszkańców
+Gdańsk, 471000 mieszkańców
 Zachorowania z 14 dni: [53, 36, 44, 57, 62, 28, 66, 61, 82, 50, 92, 57, 73, 63]
-Suma z ostatnich 14 dni: [17.53, "czerwony"]
-Ruchome sumy z 5 dni: [15.31, 16.32, 17.81, 17.1, 20.91, 20.37, 21.09, 19.96]
-Ruchome sumy z 1 dnia: [19.66, 18.17, 24.43, 14.89, 27.4, 16.98, 21.74, 18.77]
+Suma z ostatnich 14 dni: [17.49, "czerwony"]
+Ruchome sumy z 5 dni: [15.28, 16.29, 17.77, 17.06, 20.87, 20.33, 21.04, 19.92]
+Ruchome sumy z 1 dnia: [19.62, 18.13, 24.37, 14.86, 27.35, 16.94, 21.7, 18.73]
 
 Gdynia, 246000 mieszkańców
 Zachorowania z 14 dni: [25, 23, 21, 24, 11, 27, 30, 35, 37, 33, 20, 42, 23, 42]
@@ -85,17 +85,17 @@ Suma z ostatnich 14 dni: [19.24, "czerwony"]
 Ruchome sumy z 5 dni: [13.58, 17.82, 19.52, 22.06, 21.64, 24.61, 22.91, 25.88]
 Ruchome sumy z 1 dnia: [21.21, 31.82, 14.85, 23.33, 16.97, 36.06, 23.33, 29.7]
 
-malborski, 63000 mieszkańców
+malborski, 64000 mieszkańców
 Zachorowania z 14 dni: [1, 0, 2, 1, 0, 3, 4, 4, 5, 5, 1, 1, 7, 10]
-Suma z ostatnich 14 dni: [6.98, "żółty"]
-Ruchome sumy z 5 dni: [4.44, 5.33, 7.11, 9.33, 8.44, 7.11, 8.44, 10.67]
-Ruchome sumy z 1 dnia: [8.89, 8.89, 11.11, 11.11, 2.22, 2.22, 15.56, 22.22]
+Suma z ostatnich 14 dni: [6.88, "żółty"]
+Ruchome sumy z 5 dni: [4.38, 5.25, 7.0, 9.19, 8.31, 7.0, 8.31, 10.5]
+Ruchome sumy z 1 dnia: [8.75, 8.75, 10.94, 10.94, 2.19, 2.19, 15.31, 21.88]
 
-nowodworski, 79000 mieszkańców
+nowodworski, 36000 mieszkańców
 Zachorowania z 14 dni: [10, 2, 4, 1, 4, 0, 2, 1, 2, 3, 3, 2, 4, 5]
-Suma z ostatnich 14 dni: [5.44, "żółty"]
-Ruchome sumy z 5 dni: [3.9, 2.84, 3.19, 2.84, 3.9, 3.9, 4.96, 6.03]
-Ruchome sumy z 1 dnia: [3.54, 1.77, 3.54, 5.32, 5.32, 3.54, 7.09, 8.86]
+Suma z ostatnich 14 dni: [11.94, "żółty"]
+Ruchome sumy z 5 dni: [8.56, 6.22, 7.0, 6.22, 8.56, 8.56, 10.89, 13.22]
+Ruchome sumy z 1 dnia: [7.78, 3.89, 7.78, 11.67, 11.67, 7.78, 15.56, 19.44]
 
 pucki, 84000 mieszkańców
 Zachorowania z 14 dni: [19, 4, 9, 17, 23, 8, 20, 16, 21, 22, 15, 12, 36, 20]
@@ -103,11 +103,11 @@ Suma z ostatnich 14 dni: [28.81, "czerwony"]
 Ruchome sumy z 5 dni: [25.67, 28.0, 29.33, 29.0, 31.33, 28.67, 35.33, 35.0]
 Ruchome sumy z 1 dnia: [33.33, 26.67, 35.0, 36.67, 25.0, 20.0, 60.0, 33.33]
 
-Słupsk, 328000 mieszkańców
+Słupsk, 91000 mieszkańców
 Zachorowania z 14 dni: [7, 9, 5, 3, 7, 15, 8, 13, 9, 17, 7, 7, 15, 22]
-Suma z ostatnich 14 dni: [4.39, "żółty"]
-Ruchome sumy z 5 dni: [3.24, 3.93, 4.44, 5.29, 4.61, 4.52, 4.7, 5.8]
-Ruchome sumy z 1 dnia: [3.41, 5.55, 3.84, 7.26, 2.99, 2.99, 6.4, 9.39]
+Suma z ostatnich 14 dni: [15.82, "czerwony"]
+Ruchome sumy z 5 dni: [11.69, 14.15, 16.0, 19.08, 16.62, 16.31, 16.92, 20.92]
+Ruchome sumy z 1 dnia: [12.31, 20.0, 13.85, 26.15, 10.77, 10.77, 23.08, 33.85]
 
 kwidzyński, 84000 mieszkańców
 Zachorowania z 14 dni: [3, 10, 17, 8, 5, 5, 21, 22, 5, 8, 18, 1, 12, 25]
