@@ -28,10 +28,10 @@ def parse_results(powiaty, result_days)
   days = 0
   result_days.each do |results|
     results.each do |x|
-      cols = x.gsub(/[,.]/, "").split(" ")
+      cols = x.gsub(/[,.]/, "").split(/\s+/)
       num = cols[0] ? cols[0].to_i : 0
       
-      powiat = cols.last      
+      powiat = cols.last.strip
       powiaty[powiat.to_sym][:days] << num
     end
     days += 1
