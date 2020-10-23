@@ -51,11 +51,7 @@ def generate_prognosis(powiaty, count)
     sum = days_data.sum
     
     na_10_tys = (sum.to_f/count*14/(powiaty[k][:residents].to_f/10)).round(2)
-    kolor = if na_10_tys >= 12
-      "czerwony"
-    else
-      "żółty"
-    end
+    kolor = "czerwony"
     powiaty[k]["prognosis_#{count}".to_sym] = [na_10_tys, kolor]
   end
   powiaty
