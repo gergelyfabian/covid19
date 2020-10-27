@@ -1278,3 +1278,25 @@
 7 osób     miasto Sopot
 5 osób     powiat człuchowski 
 
+# 10.27
+86 osób     miasto Gdańsk
+60 osób     powiat chojnicki
+67 osób     miasto Gdynia
+45 osób     powiat starogardzki
+43 osoby   powiat kartuski
+39 osób     powiat pucki
+35 osób     powiat bytowski
+35 osób     powiat tczewski
+32 osoby   powiat wejherowski
+32 osoby   powiat malborski
+26 osób     powiat gdański
+25 osób     miasto Słupsk
+24 osoby   powiat lęborski
+24 osoby   powiat słupski
+23 osoby   powiat kościerski
+18 osób     powiat sztumski
+10 osób     powiat kwidzyński
+9 osób     miasto Sopot
+6 osób     powiat człuchowski
+4 osoby     powiat nowodworski
+
