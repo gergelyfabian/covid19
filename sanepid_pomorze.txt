@@ -1893,3 +1893,25 @@
 8 osób     powiat kościerski
 5 osób     powiat nowodworski
 
+# 11.24
+pomorskie	bytowski	14
+pomorskie	chojnicki	17
+pomorskie	człuchowski	66
+pomorskie	gdański	50
+pomorskie	kartuski	44
+pomorskie	kościerski	33
+pomorskie	kwidzyński	8
+pomorskie	lęborski	14
+pomorskie	malborski	25
+pomorskie	nowodworski	15
+pomorskie	pucki	76
+pomorskie	słupski	54
+pomorskie	starogardzki	54
+pomorskie	tczewski	38
+pomorskie	wejherowski	69
+pomorskie	sztumski	9
+pomorskie	Gdańsk	230
+pomorskie	Gdynia	105
+pomorskie	Słupsk	48
+pomorskie	Sopot	10
+

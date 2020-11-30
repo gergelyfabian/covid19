@@ -24,14 +24,29 @@ powiaty = {
 result_days_raw = File.read("sanepid_pomorze.txt").split("\n\n")
 result_days = result_days_raw.map{ |x| x.split("\n").find_all{|lines| !lines.start_with?("#")} }
 
+def parse_line(line)
+  cols = line.gsub(/[,.]/, "").split(/\s+/)
+  
+  if cols[0] =~ /^\d+/
+    # Old format
+    num = cols[0] ? cols[0].to_i : 0
+    powiat = cols.last.strip
+  else
+    # New format
+    powiat = cols[1]
+    num = cols[2].to_i
+  end
+  
+  return powiat, num
+end
+
+
 def parse_results(powiaty, result_days)
   days = 0
   result_days.each do |results|
-    results.each do |x|
-      cols = x.gsub(/[,.]/, "").split(/\s+/)
-      num = cols[0] ? cols[0].to_i : 0
+    results.each do |line|
+      powiat, num = parse_line(line)
       
-      powiat = cols.last.strip
       powiaty[powiat.to_sym][:days] << num
     end
     days += 1
