@@ -1915,3 +1915,135 @@ pomorskie	Gdynia	105
 pomorskie	Słupsk	48
 pomorskie	Sopot	10
 
+# 11.25
+pomorskie	bytowski	23
+pomorskie	chojnicki	29
+pomorskie	człuchowski	14
+pomorskie	gdański	62
+pomorskie	kartuski	56
+pomorskie	kościerski	22
+pomorskie	kwidzyński	90
+pomorskie	lęborski	10
+pomorskie	malborski	25
+pomorskie	nowodworski	22
+pomorskie	pucki	33
+pomorskie	słupski	61
+pomorskie	starogardzki	12
+pomorskie	tczewski	85
+pomorskie	wejherowski	111
+pomorskie	sztumski	15
+pomorskie	Gdańsk	265
+pomorskie	Gdynia	117
+pomorskie	Słupsk	63
+pomorskie	Sopot	11
+
+# 11.26
+pomorskie	bytowski	37
+pomorskie	chojnicki	44
+pomorskie	człuchowski	23
+pomorskie	gdański	79
+pomorskie	kartuski	47
+pomorskie	kościerski	44
+pomorskie	kwidzyński	37
+pomorskie	lęborski	21
+pomorskie	malborski	34
+pomorskie	nowodworski	11
+pomorskie	pucki	53
+pomorskie	słupski	61
+pomorskie	starogardzki	33
+pomorskie	tczewski	80
+pomorskie	wejherowski	87
+pomorskie	sztumski	25
+pomorskie	Gdańsk	180
+pomorskie	Gdynia	129
+pomorskie	Słupsk	71
+pomorskie	Sopot	9
+
+# 11.27
+pomorskie	bytowski	36
+pomorskie	chojnicki	42
+pomorskie	człuchowski	38
+pomorskie	gdański	78
+pomorskie	kartuski	41
+pomorskie	kościerski	38
+pomorskie	kwidzyński	31
+pomorskie	lęborski	35
+pomorskie	malborski	65
+pomorskie	nowodworski	39
+pomorskie	pucki	47
+pomorskie	słupski	44
+pomorskie	starogardzki	47
+pomorskie	tczewski	59
+pomorskie	wejherowski	92
+pomorskie	sztumski	33
+pomorskie	Gdańsk	292
+pomorskie	Gdynia	133
+pomorskie	Słupsk	53
+pomorskie	Sopot	15
+
+# 11.28
+pomorskie	bytowski	24
+pomorskie	chojnicki	49
+pomorskie	człuchowski	13
+pomorskie	gdański	40
+pomorskie	kartuski	61
+pomorskie	kościerski	25
+pomorskie	kwidzyński	26
+pomorskie	lęborski	7
+pomorskie	malborski	65
+pomorskie	nowodworski	11
+pomorskie	pucki	36
+pomorskie	słupski	67
+pomorskie	starogardzki	22
+pomorskie	tczewski	51
+pomorskie	wejherowski	103
+pomorskie	sztumski	21
+pomorskie	Gdańsk	200
+pomorskie	Gdynia	140
+pomorskie	Słupsk	54
+pomorskie	Sopot	11
+
+# 11.29
+pomorskie	bytowski	23
+pomorskie	chojnicki	50
+pomorskie	człuchowski	21
+pomorskie	gdański	47
+pomorskie	kartuski	24
+pomorskie	kościerski	23
+pomorskie	kwidzyński	29
+pomorskie	lęborski	24
+pomorskie	malborski	62
+pomorskie	nowodworski	14
+pomorskie	pucki	33
+pomorskie	słupski	30
+pomorskie	starogardzki	22
+pomorskie	tczewski	105
+pomorskie	wejherowski	94
+pomorskie	sztumski	22
+pomorskie	Gdańsk	192
+pomorskie	Gdynia	116
+pomorskie	Słupsk	39
+pomorskie	Sopot	8
+
+# 11.30
+pomorskie	bytowski	16
+pomorskie	chojnicki	10
+pomorskie	człuchowski	10
+pomorskie	gdański	26
+pomorskie	kartuski	14
+pomorskie	kościerski	17
+pomorskie	kwidzyński	24
+pomorskie	lęborski	5
+pomorskie	malborski	25
+pomorskie	nowodworski	5
+pomorskie	pucki	11
+pomorskie	słupski	22
+pomorskie	starogardzki	17
+pomorskie	tczewski	63
+pomorskie	wejherowski	32
+pomorskie	sztumski	23
+pomorskie	Gdańsk	65
+pomorskie	Gdynia	35
+pomorskie	Słupsk	18
+pomorskie	Sopot	3
+
