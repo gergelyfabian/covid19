@@ -2113,3 +2113,25 @@ pomorskie	Gdynia	126
 pomorskie	Słupsk	54
 pomorskie	Sopot	8
 
+# 12.04
+pomorskie	bytowski	18
+pomorskie	chojnicki	49
+pomorskie	człuchowski	19
+pomorskie	gdański	66
+pomorskie	kartuski	30
+pomorskie	kościerski	22
+pomorskie	kwidzyński	18
+pomorskie	lęborski	13
+pomorskie	malborski	49
+pomorskie	nowodworski	17
+pomorskie	pucki	10
+pomorskie	słupski	46
+pomorskie	starogardzki	19
+pomorskie	tczewski	42
+pomorskie	wejherowski	62
+pomorskie	sztumski	19
+pomorskie	Gdańsk	143
+pomorskie	Gdynia	81
+pomorskie	Słupsk	87
+pomorskie	Sopot	3
+
