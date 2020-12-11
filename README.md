@@ -2,124 +2,124 @@
 
 ```
 bytowski, 80000 mieszkańców
-Zachorowania z 14 dni: [23, 30, 18, 14, 23, 37, 36, 24, 23, 16, 19, 27, 34, 18]
-Suma z ostatnich 14 dni: [42.75, "czerwony"]
-Ruchome sumy z 5 dni: [44.8, 46.9, 50.05, 47.6, 41.3, 38.15, 41.65, 39.9]
-Ruchome sumy z 1 dnia: [63.0, 42.0, 40.25, 28.0, 33.25, 47.25, 59.5, 31.5]
+Zachorowania z 14 dni: [36, 24, 23, 16, 19, 27, 34, 18, 15, 16, 7, 9, 22, 14]
+Suma z ostatnich 14 dni: [35.0, "czerwony"]
+Ruchome sumy z 5 dni: [41.65, 39.9, 39.55, 38.5, 31.5, 22.75, 24.15, 23.8]
+Ruchome sumy z 1 dnia: [59.5, 31.5, 26.25, 28.0, 12.25, 15.75, 38.5, 24.5]
 
 chojnicki, 97000 mieszkańców
-Zachorowania z 14 dni: [88, 60, 32, 17, 29, 44, 42, 49, 50, 10, 9, 27, 37, 49]
-Suma z ostatnich 14 dni: [55.98, "czerwony"]
-Ruchome sumy z 5 dni: [47.34, 52.25, 61.77, 56.29, 46.19, 41.86, 38.39, 38.1]
-Ruchome sumy z 1 dnia: [60.62, 70.72, 72.16, 14.43, 12.99, 38.97, 53.4, 70.72]
+Zachorowania z 14 dni: [42, 49, 50, 10, 9, 27, 37, 49, 28, 63, 6, 7, 16, 42]
+Suma z ostatnich 14 dni: [44.85, "czerwony"]
+Ruchome sumy z 5 dni: [38.39, 38.1, 43.3, 58.89, 52.82, 44.16, 34.64, 38.68]
+Ruchome sumy z 1 dnia: [53.4, 70.72, 40.41, 90.93, 8.66, 10.1, 23.09, 60.62]
 
 człuchowski, 56000 mieszkańców
-Zachorowania z 14 dni: [34, 26, 14, 66, 14, 23, 38, 13, 21, 10, 3, 42, 56, 19]
-Suma z ostatnich 14 dni: [67.68, "czerwony"]
-Ruchome sumy z 5 dni: [77.5, 77.0, 54.5, 52.5, 42.5, 44.5, 66.0, 65.0]
-Ruchome sumy z 1 dnia: [95.0, 32.5, 52.5, 25.0, 7.5, 105.0, 140.0, 47.5]
+Zachorowania z 14 dni: [38, 13, 21, 10, 3, 42, 56, 19, 17, 20, 11, 17, 30, 45]
+Suma z ostatnich 14 dni: [61.07, "czerwony"]
+Ruchome sumy z 5 dni: [66.0, 65.0, 68.5, 77.0, 61.5, 42.0, 47.5, 61.5]
+Ruchome sumy z 1 dnia: [140.0, 47.5, 42.5, 50.0, 27.5, 42.5, 75.0, 112.5]
 
 gdański, 118000 mieszkańców
-Zachorowania z 14 dni: [77, 57, 49, 50, 62, 79, 78, 40, 47, 26, 9, 54, 87, 66]
-Suma z ostatnich 14 dni: [66.19, "czerwony"]
-Ruchome sumy z 5 dni: [75.46, 73.32, 72.61, 64.07, 47.46, 41.76, 52.92, 57.42]
-Ruchome sumy z 1 dnia: [92.54, 47.46, 55.76, 30.85, 10.68, 64.07, 103.22, 78.31]
+Zachorowania z 14 dni: [78, 40, 47, 26, 9, 54, 87, 66, 42, 61, 19, 23, 57, 55]
+Suma z ostatnich 14 dni: [56.27, "czerwony"]
+Ruchome sumy z 5 dni: [52.92, 57.42, 61.22, 73.56, 65.25, 50.07, 47.93, 51.02]
+Ruchome sumy z 1 dnia: [103.22, 78.31, 49.83, 72.37, 22.54, 27.29, 67.63, 65.25]
 
 kartuski, 139000 mieszkańców
-Zachorowania z 14 dni: [132, 34, 32, 44, 56, 47, 41, 61, 24, 14, 20, 55, 51, 30]
-Suma z ostatnich 14 dni: [46.12, "czerwony"]
-Ruchome sumy z 5 dni: [44.32, 50.16, 46.13, 37.67, 32.23, 35.05, 33.04, 34.24]
-Ruchome sumy z 1 dnia: [41.29, 61.44, 24.17, 14.1, 20.14, 55.4, 51.37, 30.22]
+Zachorowania z 14 dni: [41, 61, 24, 14, 20, 55, 51, 30, 36, 29, 21, 23, 34, 35]
+Suma z ostatnich 14 dni: [34.1, "czerwony"]
+Ruchome sumy z 5 dni: [33.04, 34.24, 38.68, 40.49, 33.64, 28.0, 28.81, 28.6]
+Ruchome sumy z 1 dnia: [51.37, 30.22, 36.26, 29.21, 21.15, 23.17, 34.24, 35.25]
 
 wejherowski, 217000 mieszkańców
-Zachorowania z 14 dni: [142, 135, 131, 69, 111, 87, 92, 103, 94, 32, 40, 63, 83, 62]
-Suma z ostatnich 14 dni: [57.33, "czerwony"]
-Ruchome sumy z 5 dni: [63.23, 59.61, 62.84, 52.65, 46.58, 42.84, 40.26, 36.13]
-Ruchome sumy z 1 dnia: [59.35, 66.45, 60.65, 20.65, 25.81, 40.65, 53.55, 40.0]
+Zachorowania z 14 dni: [92, 103, 94, 32, 40, 63, 83, 62, 104, 71, 15, 38, 82, 64]
+Suma z ostatnich 14 dni: [43.46, "czerwony"]
+Ruchome sumy z 5 dni: [40.26, 36.13, 45.42, 49.42, 43.23, 37.42, 40.0, 34.84]
+Ruchome sumy z 1 dnia: [53.55, 40.0, 67.1, 45.81, 9.68, 24.52, 52.9, 41.29]
 
 starogardzki, 128000 mieszkańców
-Zachorowania z 14 dni: [62, 32, 13, 54, 12, 33, 47, 22, 22, 17, 17, 14, 76, 19]
-Suma z ostatnich 14 dni: [34.38, "czerwony"]
-Ruchome sumy z 5 dni: [34.78, 36.75, 29.75, 30.84, 27.34, 20.12, 31.94, 31.28]
-Ruchome sumy z 1 dnia: [51.41, 24.06, 24.06, 18.59, 18.59, 15.31, 83.13, 20.78]
+Zachorowania z 14 dni: [47, 22, 22, 17, 17, 14, 76, 19, 46, 24, 11, 18, 49, 26]
+Suma z ostatnich 14 dni: [31.88, "czerwony"]
+Ruchome sumy z 5 dni: [31.94, 31.28, 37.62, 39.16, 38.5, 25.81, 32.38, 28.0]
+Ruchome sumy z 1 dnia: [83.13, 20.78, 50.31, 26.25, 12.03, 19.69, 53.59, 28.44]
 
 sztumski, 42000 mieszkańców
-Zachorowania z 14 dni: [27, 20, 21, 9, 15, 25, 33, 21, 22, 23, 6, 12, 17, 19]
-Suma z ostatnich 14 dni: [64.29, "czerwony"]
-Ruchome sumy z 5 dni: [68.67, 68.67, 77.33, 82.67, 70.0, 56.0, 53.33, 51.33]
-Ruchome sumy z 1 dnia: [110.0, 70.0, 73.33, 76.67, 20.0, 40.0, 56.67, 63.33]
+Zachorowania z 14 dni: [33, 21, 22, 23, 6, 12, 17, 19, 25, 34, 2, 8, 9, 30]
+Suma z ostatnich 14 dni: [62.14, "czerwony"]
+Ruchome sumy z 5 dni: [53.33, 51.33, 52.67, 71.33, 64.67, 58.67, 52.0, 55.33]
+Ruchome sumy z 1 dnia: [56.67, 63.33, 83.33, 113.33, 6.67, 26.67, 30.0, 100.0]
 
 tczewski, 115000 mieszkańców
-Zachorowania z 14 dni: [144, 103, 72, 38, 85, 80, 59, 51, 105, 63, 21, 39, 82, 42]
-Suma z ostatnich 14 dni: [85.57, "czerwony"]
-Ruchome sumy z 5 dni: [81.32, 76.21, 92.52, 87.17, 72.8, 67.93, 75.48, 60.14]
-Ruchome sumy z 1 dnia: [71.83, 62.09, 127.83, 76.7, 25.57, 47.48, 99.83, 51.13]
+Zachorowania z 14 dni: [59, 51, 105, 63, 21, 39, 82, 42, 78, 72, 35, 24, 73, 27]
+Suma z ostatnich 14 dni: [67.04, "czerwony"]
+Ruchome sumy z 5 dni: [75.48, 60.14, 63.79, 76.21, 75.23, 61.11, 68.66, 56.24]
+Ruchome sumy z 1 dnia: [99.83, 51.13, 94.96, 87.65, 42.61, 29.22, 88.87, 32.87]
 
 Gdańsk, 471000 mieszkańców
-Zachorowania z 14 dni: [218, 229, 268, 230, 265, 180, 292, 200, 192, 65, 105, 240, 292, 143]
-Suma z ostatnich 14 dni: [61.97, "czerwony"]
-Ruchome sumy z 5 dni: [73.42, 69.38, 67.12, 55.23, 50.77, 47.68, 53.15, 50.23]
-Ruchome sumy z 1 dnia: [86.79, 59.45, 57.07, 19.32, 31.21, 71.34, 86.79, 42.51]
+Zachorowania z 14 dni: [292, 200, 192, 65, 105, 240, 292, 143, 181, 177, 96, 123, 186, 229]
+Suma z ostatnich 14 dni: [53.52, "czerwony"]
+Ruchome sumy z 5 dni: [53.15, 50.23, 57.13, 61.41, 52.85, 42.8, 45.36, 48.21]
+Ruchome sumy z 1 dnia: [86.79, 42.51, 53.8, 52.61, 28.54, 36.56, 55.29, 68.07]
 
 Gdynia, 246000 mieszkańców
-Zachorowania z 14 dni: [222, 105, 103, 105, 117, 129, 133, 140, 116, 35, 35, 153, 126, 81]
-Suma z ostatnich 14 dni: [65.04, "czerwony"]
-Ruchome sumy z 5 dni: [66.81, 71.02, 72.28, 62.94, 52.24, 54.52, 52.93, 48.94]
-Ruchome sumy z 1 dnia: [75.69, 79.67, 66.02, 19.92, 19.92, 87.07, 71.71, 46.1]
+Zachorowania z 14 dni: [133, 140, 116, 35, 35, 153, 126, 81, 106, 128, 29, 70, 106, 84]
+Suma z ostatnich 14 dni: [54.55, "czerwony"]
+Ruchome sumy z 5 dni: [52.93, 48.94, 57.02, 67.61, 53.5, 47.12, 49.97, 47.46]
+Ruchome sumy z 1 dnia: [71.71, 46.1, 60.33, 72.85, 16.5, 39.84, 60.33, 47.8]
 
 Sopot, 35000 mieszkańców
-Zachorowania z 14 dni: [9, 3, 9, 10, 11, 9, 15, 11, 8, 3, 7, 10, 8, 3]
-Suma z ostatnich 14 dni: [33.14, "czerwony"]
-Ruchome sumy z 5 dni: [43.2, 44.8, 43.2, 36.8, 35.2, 31.2, 28.8, 24.8]
-Ruchome sumy z 1 dnia: [60.0, 44.0, 32.0, 12.0, 28.0, 40.0, 32.0, 12.0]
+Zachorowania z 14 dni: [15, 11, 8, 3, 7, 10, 8, 3, 13, 6, 3, 7, 9, 9]
+Suma z ostatnich 14 dni: [32.0, "czerwony"]
+Ruchome sumy z 5 dni: [28.8, 24.8, 32.8, 32.0, 26.4, 25.6, 30.4, 27.2]
+Ruchome sumy z 1 dnia: [32.0, 12.0, 52.0, 24.0, 12.0, 28.0, 36.0, 36.0]
 
 kościerski, 72000 mieszkańców
-Zachorowania z 14 dni: [40, 19, 8, 33, 22, 44, 38, 25, 23, 17, 22, 20, 19, 22]
-Suma z ostatnich 14 dni: [48.89, "czerwony"]
-Ruchome sumy z 5 dni: [56.39, 63.0, 59.11, 57.17, 48.61, 41.61, 39.28, 38.89]
-Ruchome sumy z 1 dnia: [73.89, 48.61, 44.72, 33.06, 42.78, 38.89, 36.94, 42.78]
+Zachorowania z 14 dni: [38, 25, 23, 17, 22, 20, 19, 22, 18, 4, 5, 21, 7, 12]
+Suma z ostatnich 14 dni: [35.14, "czerwony"]
+Ruchome sumy z 5 dni: [39.28, 38.89, 39.28, 32.28, 26.44, 27.22, 21.39, 19.06]
+Ruchome sumy z 1 dnia: [36.94, 42.78, 35.0, 7.78, 9.72, 40.83, 13.61, 23.33]
 
 lęborski, 66000 mieszkańców
-Zachorowania z 14 dni: [34, 26, 32, 14, 10, 21, 35, 7, 24, 5, 7, 49, 24, 13]
-Suma z ostatnich 14 dni: [45.61, "czerwony"]
-Ruchome sumy z 5 dni: [47.52, 36.91, 41.15, 39.03, 33.09, 39.03, 46.24, 41.58]
-Ruchome sumy z 1 dnia: [74.24, 14.85, 50.91, 10.61, 14.85, 103.94, 50.91, 27.58]
+Zachorowania z 14 dni: [35, 7, 24, 5, 7, 49, 24, 13, 17, 30, 4, 3, 28, 9]
+Suma z ostatnich 14 dni: [38.64, "czerwony"]
+Ruchome sumy z 5 dni: [46.24, 41.58, 46.67, 56.42, 37.33, 28.42, 34.79, 31.39]
+Ruchome sumy z 1 dnia: [50.91, 27.58, 36.06, 63.64, 8.48, 6.36, 59.39, 19.09]
 
 malborski, 64000 mieszkańców
-Zachorowania z 14 dni: [73, 41, 28, 25, 25, 34, 65, 65, 62, 25, 17, 51, 67, 49]
-Suma z ostatnich 14 dni: [97.97, "czerwony"]
-Ruchome sumy z 5 dni: [77.44, 93.62, 109.81, 109.81, 102.37, 96.25, 97.13, 91.44]
-Ruchome sumy z 1 dnia: [142.19, 142.19, 135.63, 54.69, 37.19, 111.56, 146.56, 107.19]
+Zachorowania z 14 dni: [65, 65, 62, 25, 17, 51, 67, 49, 20, 36, 9, 16, 44, 49]
+Suma z ostatnich 14 dni: [89.84, "czerwony"]
+Ruchome sumy z 5 dni: [97.13, 91.44, 89.25, 97.56, 79.19, 56.88, 54.69, 67.38]
+Ruchome sumy z 1 dnia: [146.56, 107.19, 43.75, 78.75, 19.69, 35.0, 96.25, 107.19]
 
 nowodworski, 36000 mieszkańców
-Zachorowania z 14 dni: [34, 16, 5, 15, 22, 11, 39, 11, 14, 5, 10, 16, 14, 17]
-Suma z ostatnich 14 dni: [63.61, "czerwony"]
-Ruchome sumy z 5 dni: [71.56, 76.22, 75.44, 62.22, 61.44, 43.56, 45.89, 48.22]
-Ruchome sumy z 1 dnia: [151.67, 42.78, 54.44, 19.44, 38.89, 62.22, 54.44, 66.11]
+Zachorowania z 14 dni: [39, 11, 14, 5, 10, 16, 14, 17, 18, 14, 8, 6, 24, 18]
+Suma z ostatnich 14 dni: [59.44, "czerwony"]
+Ruchome sumy z 5 dni: [45.89, 48.22, 58.33, 61.44, 55.22, 49.0, 54.44, 54.44]
+Ruchome sumy z 1 dnia: [54.44, 66.11, 70.0, 54.44, 31.11, 23.33, 93.33, 70.0]
 
 pucki, 84000 mieszkańców
-Zachorowania z 14 dni: [46, 49, 12, 76, 33, 53, 47, 36, 33, 11, 31, 31, 46, 10]
-Suma z ostatnich 14 dni: [61.19, "czerwony"]
-Ruchome sumy z 5 dni: [73.67, 81.67, 67.33, 60.0, 52.67, 47.33, 50.67, 43.0]
-Ruchome sumy z 1 dnia: [78.33, 60.0, 55.0, 18.33, 51.67, 51.67, 76.67, 16.67]
+Zachorowania z 14 dni: [47, 36, 33, 11, 31, 31, 46, 10, 50, 16, 12, 11, 28, 35]
+Suma z ostatnich 14 dni: [47.26, "czerwony"]
+Ruchome sumy z 5 dni: [50.67, 43.0, 56.0, 51.0, 44.67, 33.0, 39.0, 34.0]
+Ruchome sumy z 1 dnia: [76.67, 16.67, 83.33, 26.67, 20.0, 18.33, 46.67, 58.33]
 
 Słupsk, 91000 mieszkańców
-Zachorowania z 14 dni: [133, 45, 36, 48, 63, 71, 53, 54, 39, 18, 35, 66, 54, 87]
-Suma z ostatnich 14 dni: [88.13, "czerwony"]
-Ruchome sumy z 5 dni: [83.38, 88.92, 86.15, 72.31, 61.23, 65.23, 65.23, 80.0]
-Ruchome sumy z 1 dnia: [81.54, 83.08, 60.0, 27.69, 53.85, 101.54, 83.08, 133.85]
+Zachorowania z 14 dni: [53, 54, 39, 18, 35, 66, 54, 87, 71, 29, 20, 45, 43, 47]
+Suma z ostatnich 14 dni: [72.64, "czerwony"]
+Ruchome sumy z 5 dni: [65.23, 80.0, 96.31, 94.46, 80.31, 77.54, 64.0, 56.62]
+Ruchome sumy z 1 dnia: [83.08, 133.85, 109.23, 44.62, 30.77, 69.23, 66.15, 72.31]
 
 kwidzyński, 84000 mieszkańców
-Zachorowania z 14 dni: [69, 61, 48, 8, 90, 37, 31, 26, 29, 24, 3, 28, 23, 18]
-Suma z ostatnich 14 dni: [58.93, "czerwony"]
-Ruchome sumy z 5 dni: [71.33, 64.0, 71.0, 49.0, 37.67, 36.67, 35.67, 32.0]
-Ruchome sumy z 1 dnia: [51.67, 43.33, 48.33, 40.0, 5.0, 46.67, 38.33, 30.0]
+Zachorowania z 14 dni: [31, 26, 29, 24, 3, 28, 23, 18, 28, 19, 11, 11, 46, 6]
+Suma z ostatnich 14 dni: [36.07, "czerwony"]
+Ruchome sumy z 5 dni: [35.67, 32.0, 33.33, 38.67, 33.0, 29.0, 38.33, 31.0]
+Ruchome sumy z 1 dnia: [38.33, 30.0, 46.67, 31.67, 18.33, 18.33, 76.67, 10.0]
 
 słupski, 98000 mieszkańców
-Zachorowania z 14 dni: [108, 48, 28, 54, 61, 61, 44, 67, 30, 22, 27, 63, 30, 46]
-Suma z ostatnich 14 dni: [70.31, "czerwony"]
-Ruchome sumy z 5 dni: [70.86, 82.0, 75.14, 64.0, 54.29, 59.71, 49.14, 53.71]
-Ruchome sumy z 1 dnia: [62.86, 95.71, 42.86, 31.43, 38.57, 90.0, 42.86, 65.71]
+Zachorowania z 14 dni: [44, 67, 30, 22, 27, 63, 30, 46, 56, 25, 11, 35, 40, 51]
+Suma z ostatnich 14 dni: [55.82, "czerwony"]
+Ruchome sumy z 5 dni: [49.14, 53.71, 63.43, 62.86, 48.0, 49.43, 47.71, 46.29]
+Ruchome sumy z 1 dnia: [42.86, 65.71, 80.0, 35.71, 15.71, 50.0, 57.14, 72.86]
 
 ```
 Wszystkie sumy są sumą zachorowań na N dni, po przeliczeniu proporcjonalnie na 14 dni, na 10 tysięcy mieszkańców.
