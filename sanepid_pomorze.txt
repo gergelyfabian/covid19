@@ -3059,3 +3059,25 @@ pomorskie	Gdynia	180
 pomorskie	Słupsk	45
 pomorskie	Sopot	17
 
+# 03.05
+pomorskie	bytowski	14
+pomorskie	chojnicki	22
+pomorskie	człuchowski	22
+pomorskie	gdański	77
+pomorskie	kartuski	63
+pomorskie	kościerski	31
+pomorskie	kwidzyński	30
+pomorskie	lęborski	83
+pomorskie	malborski	21
+pomorskie	nowodworski	24
+pomorskie	pucki	64
+pomorskie	słupski	25
+pomorskie	starogardzki	54
+pomorskie	tczewski	61
+pomorskie	wejherowski	126
+pomorskie	sztumski	11
+pomorskie	Gdańsk	357
+pomorskie	Gdynia	176
+pomorskie	Słupsk	31
+pomorskie	Sopot	19
+
