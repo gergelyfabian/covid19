@@ -3081,3 +3081,91 @@ pomorskie	Gdynia	176
 pomorskie	Słupsk	31
 pomorskie	Sopot	19
 
+# 03.06
+pomorskie	bytowski	17
+pomorskie	chojnicki	34
+pomorskie	człuchowski	12
+pomorskie	gdański	108
+pomorskie	kartuski	68
+pomorskie	kościerski	27
+pomorskie	kwidzyński	28
+pomorskie	lęborski	60
+pomorskie	malborski	28
+pomorskie	nowodworski	18
+pomorskie	pucki	24
+pomorskie	słupski	27
+pomorskie	starogardzki	38
+pomorskie	tczewski	114
+pomorskie	wejherowski	112
+pomorskie	sztumski	9
+pomorskie	Gdańsk	340
+pomorskie	Gdynia	153
+pomorskie	Słupsk	54
+pomorskie	Sopot	28
+
+# 03.07
+pomorskie	bytowski	18
+pomorskie	chojnicki	1
+pomorskie	człuchowski	11
+pomorskie	gdański	119
+pomorskie	kartuski	58
+pomorskie	kościerski	13
+pomorskie	kwidzyński	29
+pomorskie	lęborski	72
+pomorskie	malborski	19
+pomorskie	nowodworski	11
+pomorskie	pucki	59
+pomorskie	słupski	22
+pomorskie	starogardzki	34
+pomorskie	tczewski	25
+pomorskie	wejherowski	83
+pomorskie	sztumski	7
+pomorskie	Gdańsk	323
+pomorskie	Gdynia	162
+pomorskie	Słupsk	16
+pomorskie	Sopot	14
+
+# 03.08
+pomorskie	bytowski	4
+pomorskie	chojnicki	9
+pomorskie	człuchowski	7
+pomorskie	gdański	40
+pomorskie	kartuski	45
+pomorskie	kościerski	14
+pomorskie	kwidzyński	18
+pomorskie	lęborski	48
+pomorskie	malborski	0
+pomorskie	nowodworski	6
+pomorskie	pucki	14
+pomorskie	słupski	18
+pomorskie	starogardzki	59
+pomorskie	tczewski	19
+pomorskie	wejherowski	30
+pomorskie	sztumski	1
+pomorskie	Gdańsk	264
+pomorskie	Gdynia	72
+pomorskie	Słupsk	24
+pomorskie	Sopot	17
+
+# 03.09
+pomorskie	bytowski	11
+pomorskie	chojnicki	7
+pomorskie	człuchowski	3
+pomorskie	gdański	14
+pomorskie	kartuski	38
+pomorskie	kościerski	23
+pomorskie	kwidzyński	9
+pomorskie	lęborski	33
+pomorskie	malborski	8
+pomorskie	nowodworski	16
+pomorskie	pucki	5
+pomorskie	słupski	19
+pomorskie	starogardzki	8
+pomorskie	tczewski	40
+pomorskie	wejherowski	53
+pomorskie	sztumski	7
+pomorskie	Gdańsk	228
+pomorskie	Gdynia	57
+pomorskie	Słupsk	20
+pomorskie	Sopot	9
+
